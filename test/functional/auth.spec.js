@@ -97,7 +97,6 @@ test('not register if not pass user type field', async ({ client, assert }) => {
     "cpf":"07368424541",
     "type": "admin"
   }).end()
-  
   return response.assertJSONSubset([{"validation": "required"}])
 
 })
@@ -110,6 +109,7 @@ test('create user if pass all fields correctly', async ({ client, assert }) => {
     "cpf":"07368424541",
     "status": "admin"
   }
+
   const response = await client.post('/api/v1/auth/register').send(data).end()
   
   return response.assertStatus(200)

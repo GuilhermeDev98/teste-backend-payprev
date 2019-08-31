@@ -14,7 +14,7 @@ class AuthController {
 
           
         if(validation.fails()){
-            response.unauthorized(validation.messages())
+            response.badRequest(validation.messages())
         }
         
         const { email, password } = request.all()
