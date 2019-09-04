@@ -1,1 +1,1 @@
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://github.com/GuilhermeDev98/teste-backend-payprev/blob/master/Insomnia_2019-09-04.json)
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://raw.githubusercontent.com/GuilhermeDev98/teste-backend-payprev/master/Insomnia_2019-09-04.json)
