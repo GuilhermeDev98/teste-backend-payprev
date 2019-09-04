@@ -19,4 +19,4 @@ Route.group(() => {
   Route.put('folders/:folder', 'FolderController.update').middleware(['auth'])
   Route.delete('folders/:folder', 'FolderController.destroy').middleware(['auth'])
 
-  }).prefix('api/v1')
+}).prefix('api/v1')
